@@ -8,6 +8,29 @@
   --filter-btn-color: #4d5ae5;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
@@ -22,10 +45,23 @@ body {
   list-style: none;
 }
 
+.container {
+  width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.btn-size {
+  border: 0;
+  padding: 16px 32px;
+}
+
 /*? --------HEADER-----------*/
 
 .header {
   background: #fff;
+  padding-top: 24px;
 }
 .header-navigation {
 }
@@ -75,7 +111,6 @@ body {
 .adress-item {
 }
 .item-contact {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -104,6 +139,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
+  margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -113,9 +149,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  text-align: center;
   color: #ffffff;
-  cursor: pointer;
 }
+
+
 
 .hero-btn:hover {
   background-color: var(--active-link-color);
@@ -125,10 +163,15 @@ body {
   background-color: var(--active-link-color);
 }
 
-/*? --------WHAT ARE WE DOING-----------*/
+/*? --------BENEFITS-----------*/
 
 .benefits {
   background: #fff;
+}
+
+.benefits-list{
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .benefits-title {
@@ -138,6 +181,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
+  margin-bottom: 8px;
 }
 
 .benefits-text {
@@ -243,20 +287,17 @@ body {
 
 /*? --------PROJECTS-----------*/
 
-.project-list{
-
+.project-list {
 }
 
-.project-item{
-  background-color: #E7E9FC;
-
+.project-item {
+  background-color: #e7e9fc;
 }
 
-.project-link{
-
+.project-link {
 }
 
-.project-picture{
+.project-picture {
   cursor: pointer;
 }
 .project-name {
