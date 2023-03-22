@@ -23,6 +23,10 @@ ul {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+
 button {
   cursor: pointer;
 }
@@ -77,6 +81,7 @@ body {
   text-transform: uppercase;
   color: var(--logo-color-style);
   text-decoration: none;
+  display: block;
 }
 
 .logo-span {
@@ -145,7 +150,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
-  padding-top: ;
+  max-width: 496px;
   margin-bottom: 48px;
 }
 
@@ -158,6 +163,7 @@ body {
   letter-spacing: 0.04em;
   text-align: center;
   color: #ffffff;
+  display: block;
 }
 
 .hero-btn:hover {
@@ -196,7 +202,11 @@ body {
   color: var(--main-text-color);
 }
 
-.exemple-title {
+/*?--------WHAT ARE WE DO IN------*/
+.examples {
+}
+
+.examples-title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -207,12 +217,12 @@ body {
   color: var(--second-title-color);
 }
 
-/*?--------WHAT ARE WE DO IN------*/
-.examples {
+.examples-title {
+  margin-bottom: 72px;
 }
 
-.exemple-title {
-  margin-bottom: 72px;
+.examples-list {
+  padding-bottom: 120px;
 }
 
 /*? --------OUR TEAM-----------*/
@@ -221,7 +231,7 @@ body {
   background: #f4f4fd;
 }
 
-.our-team{
+.our-team {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -270,6 +280,11 @@ body {
   color: var(--active-link-color);
 }
 
+.filter-list {
+  padding-top: 96px;
+  padding-bottom: 72px;
+}
+
 .filter-btn {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -307,6 +322,7 @@ body {
 /*? --------PROJECTS-----------*/
 
 .project-list {
+  padding-bottom: 120px;
 }
 
 .project-item {
@@ -327,6 +343,8 @@ body {
   letter-spacing: 0.02em;
   cursor: pointer;
   color: var(--second-title-color);
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .project-description {
@@ -335,6 +353,7 @@ body {
   letter-spacing: 0.02em;
   cursor: pointer;
   color: var(--main-text-color);
+  padding-bottom: 32px;
 }
 
 /*? --------FOOTER-----------*/
@@ -352,6 +371,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color-style);
+  display: block;
+  padding-top: 101.5px;
+  padding-bottom: 17.5px;
 }
 
 .logo-span-foot {
@@ -363,4 +385,5 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  padding-bottom: 100px;
 }
