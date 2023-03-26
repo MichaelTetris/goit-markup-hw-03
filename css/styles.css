@@ -214,7 +214,7 @@ body {
   background: #fff;
 }
 
-.benefits-main-title{
+.benefits-main-title {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -253,6 +253,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   max-width: 264px;
+  height: auto;
 }
 
 /*?--------WHAT ARE WE DO IN------*/
@@ -281,6 +282,10 @@ body {
 .examples-list {
   display: flex;
   gap: 24px;
+}
+
+.examples-item {
+  width: calc((100% - 48px) / 3);
 }
 
 /*? --------OUR TEAM-----------*/
@@ -317,10 +322,11 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  min-width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-photo {
-  max-width: 264px;
 }
 
 .team-description {
@@ -354,6 +360,19 @@ body {
   background: #ffffff;
 }
 
+.project-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .filter-list:focus {
   color: var(--active-link-color);
 }
@@ -361,6 +380,9 @@ body {
 .filter-list {
   padding-top: 96px;
   padding-bottom: 72px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .filter-btn {
@@ -370,9 +392,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding: 12px 24px;
   color: var(--filter-btn-color);
   background-color: #f4f4fd;
-  border: none;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -400,11 +424,21 @@ body {
 /*? --------PROJECTS-----------*/
 
 .project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
   padding-bottom: 120px;
 }
 
+.project-box {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding: 32px 16px;
+}
+
 .project-item {
-  background-color: #e7e9fc;
+  background-color: #ffffff;
+  width: calc((100% - 48px) / 3);
 }
 
 .project-link {
@@ -412,6 +446,7 @@ body {
 
 .project-picture {
   cursor: pointer;
+  max-width: 360px;
 }
 .project-name {
   font-style: normal;
@@ -421,7 +456,6 @@ body {
   letter-spacing: 0.02em;
   cursor: pointer;
   color: var(--second-title-color);
-  padding-top: 32px;
   padding-bottom: 8px;
 }
 
@@ -431,7 +465,6 @@ body {
   letter-spacing: 0.02em;
   cursor: pointer;
   color: var(--main-text-color);
-  padding-bottom: 32px;
 }
 
 /*? --------FOOTER-----------*/
@@ -465,5 +498,4 @@ body {
   color: #f4f4fd;
   max-width: 264px;
   padding-bottom: 100px;
-
 }
