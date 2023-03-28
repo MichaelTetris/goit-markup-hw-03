@@ -125,7 +125,6 @@ body {
   color: var(--active-link-color);
 }
 
-
 .header-contact {
   font-style: normal;
   display: flex;
@@ -216,6 +215,11 @@ body {
   background: #fff;
 }
 
+.benefits-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .benefits-main-title {
   position: absolute;
   width: 1px;
@@ -230,8 +234,6 @@ body {
 }
 
 .benefits-list {
-  padding-top: 120px;
-  padding-bottom: 120px;
   display: flex;
 }
 
