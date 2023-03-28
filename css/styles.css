@@ -358,6 +358,11 @@ body {
   background: #ffffff;
 }
 
+.filter-section {
+  padding-top: 96px;
+  padding-bottom: 72px;
+}
+
 .project-title {
   position: absolute;
   width: 1px;
@@ -376,8 +381,6 @@ body {
 }
 
 .filter-list {
-  padding-top: 96px;
-  padding-bottom: 72px;
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -421,11 +424,14 @@ body {
 
 /*? --------PROJECTS-----------*/
 
+.project-section {
+  padding-bottom: 120px;
+}
+
 .project-list {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding-bottom: 120px;
 }
 
 .project-box {
@@ -454,7 +460,7 @@ body {
   letter-spacing: 0.02em;
   cursor: pointer;
   color: var(--second-title-color);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .project-description {
