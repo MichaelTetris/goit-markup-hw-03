@@ -67,10 +67,15 @@ body {
 
 .header {
   background: #fff;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
   border-bottom: 1px solid #e7e9fc;
 }
+
+.header-section {
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
+  display: flex;
+}
+
 .header-navigation {
   display: flex;
   margin-right: auto;
@@ -120,9 +125,6 @@ body {
   color: var(--active-link-color);
 }
 
-.centred {
-  display: flex;
-}
 
 .header-contact {
   font-style: normal;
