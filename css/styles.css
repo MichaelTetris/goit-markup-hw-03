@@ -469,6 +469,8 @@ body {
 
 .footer {
   background-color: var(--second-title-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -481,8 +483,7 @@ body {
   text-transform: uppercase;
   color: var(--logo-color-style);
   display: block;
-  padding-top: 101.5px;
-  padding-bottom: 17.5px;
+  margin-bottom: 16px;
 }
 
 .logo-span-foot {
@@ -495,5 +496,4 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  padding-bottom: 100px;
 }
