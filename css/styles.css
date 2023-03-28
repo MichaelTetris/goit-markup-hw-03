@@ -213,9 +213,6 @@ body {
 
 .benefits {
   background: #fff;
-}
-
-.benefits-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -262,6 +259,7 @@ body {
 
 /*?--------WHAT ARE WE DO IN------*/
 .examples {
+  padding-bottom: 120px;
 }
 
 .examples-title {
@@ -280,7 +278,6 @@ body {
 }
 
 .examples-list {
-  padding-bottom: 120px;
 }
 
 .examples-list {
@@ -296,9 +293,6 @@ body {
 
 .team {
   background: #f4f4fd;
-}
-
-.our-team {
   padding-top: 120px;
   padding-bottom: 120px;
 }
