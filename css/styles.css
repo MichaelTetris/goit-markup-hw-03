@@ -356,11 +356,8 @@ body {
 
 .filter {
   background: #ffffff;
-}
-
-.filter-section {
   padding-top: 96px;
-  padding-bottom: 72px;
+  padding-bottom: 120px;
 }
 
 .project-title {
@@ -384,6 +381,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 72px;
 }
 
 .filter-btn {
@@ -423,10 +421,6 @@ body {
 }
 
 /*? --------PROJECTS-----------*/
-
-.project-section {
-  padding-bottom: 120px;
-}
 
 .project-list {
   display: flex;
